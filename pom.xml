@@ -99,15 +99,14 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
+		
 		<dependency>
-        	
-		<dependency>
-        	<groupId>com.mulesoft.muleesb.transports</groupId>
-			<artifactId>mule-transport-jms</artifactId>
+			<groupId>org.mule.transports</groupId>
+			<artifactId>mule-transport-vm</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
-		
 		<!-- Mule Modules -->
 		<dependency>
 			<groupId>org.mule.modules</groupId>
