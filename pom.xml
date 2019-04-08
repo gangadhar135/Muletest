@@ -65,8 +65,7 @@
         <cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>
             <muleVersion>3.9.0</muleVersion>
-            <username>gangadhar_d</username>
-            <password>Welcome@123</password>
+	    <server>anypointPlatform</server>
             <applicationName>MuleTestDeploymentApplication</applicationName>
             <environment>Sandbox</environment>
             <properties>
