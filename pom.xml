@@ -61,19 +61,16 @@
   <version>2.3.2</version>
   <extensions>true</extensions>
   
-      <configuration>
-        <cloudHubDeployment>
-            <uri>https://anypoint.mulesoft.com</uri>
-            <muleVersion>3.9.0</muleVersion>
-	    <server>anypointPlatform</server>
-            <applicationName>MuleTestDeploymentApplication</applicationName>
-            <environment>Sandbox</environment>
-            <properties>
-                <key>value</key>
-            </properties>
-        </cloudHubDeployment>
+     <configuration>
+      <armDeployment>
+          <uri>https://anypoint.mulesoft.com</uri>
+          <target>Kenny</target>
+          <targetType>server</targetType>
+          <username>srvc-oracle</username>
+          <password>Peloton123!</password>
+          <environment>Development</environment>
+      </armDeployment>
     </configuration>
-  
   
   
 </plugin>
