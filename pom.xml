@@ -61,20 +61,19 @@
   <version>2.3.2</version>
   <extensions>true</extensions>
   
-     <configuration>
-        <cloudHubDeployment>
-		
-            <uri>https://anypoint.mulesoft.com</uri>
-            <muleVersion>3.9.0</muleVersion>
-			<username>gangadhar_d1</username>
-			<password>Welcome@123</password>
-            <applicationName>MuleTestDeploymentApplication</applicationName>
-            <environment>Sandbox</environment>
-            <properties>
-                <key>value</key>
-            </properties>
-        </cloudHubDeployment>
-    </configuration> 
+      <configuration>
+	<armDeployment>
+          <uri>https://anypoint.mulesoft.com</uri>
+		  <muleVersion>3.8.3</muleVersion>
+		  <server>my.anypoint.credentials</server>
+          <target>Kenny</target>
+          <targetType>server</targetType>
+          <username>gangadhar_d</username>
+          <password>Welcome@123</password>
+
+          <environment>Development</environment>
+      </armDeployment>
+    </configuration>
   
   
 </plugin>
