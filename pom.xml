@@ -72,6 +72,10 @@
           <password>Welcome@123</password>
 
           <environment>Development</environment>
+          
+          <properties>
+			<env>dev</env>
+		  </properties>
       </armDeployment>
     </configuration>
   
