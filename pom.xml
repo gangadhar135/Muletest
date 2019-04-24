@@ -66,6 +66,7 @@
           <uri>https://anypoint.mulesoft.com</uri>
 		  <muleVersion>3.8.3</muleVersion>
           <target>Kenny</target>
+          <targetType>server</targetType>
           <server>anypointPlatform</server>
           <environment>${environment}</environment>         
       </armDeployment>
