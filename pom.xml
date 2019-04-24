@@ -69,7 +69,7 @@
           <targetType>server</targetType>
           <username>gangadhar_d</username>
           <password>Welcome@123</password>
-          <environment>Development</environment>         
+          <environment>${environment}</environment>         
       </armDeployment>
    
     </configuration>
